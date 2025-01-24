@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <style>
+        .linux{
+color: white;
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            top: 0%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        body{background-image: url(1.gif);}
+    </style>
+    <body>
+        <div class="linux">
+            <button onclick="window.print()">打印本页,建议调为横向</button>
+            <img src="./10ca5a8314e0d20357f963a526153a89.jpeg" alt="Linux目录作用">
+        <h1>Linux各大目录作用</h1>
+        <ol>
+            <li>/ (Root，根目录)：Linux文件系统的顶级目录，所有其他目录和文件都位于此目录下。</li>
+            <li>/bin (Binaries，二进制文件)：包含用户级命令的二进制文件，普通用户都可执行。</li>
+            <li>/sbin (System binaries，系统二进制文件)：包含系统级命令的二进制文件，通常只有超级用户可以执行。</li>
+            <li>/home：普通用户的家目录，每个用户都有自己的子目录，通常以用户名命名。</li>
+            <li>
+                /root：超级用户root的家目录。
+            </li>
+            <li>/etc (Etcetera，等等)：包含系统配置文件。</li>
+            <li>/var (Variable，变量)：包含系统运行时要改变数据的文件，如日志文件等。</li>
+            <li>/usr (Unix Software Resource，Unix操作系统资源)：包含用户级软件，如二进制文件、库文件、文档和二级开发程序等。</li>
+            <li>/tmp (Temporary，临时)：存放临时文件。</li>
+            <li>/dev (Devices，设备)：包含设备文件，用于访问硬件设备。</li>
+            <li>/proc (Process，进程)：包含系统运行时的进程和内核信息。</li>
+            <li>/sys：包含系统管理的硬件设备信息。</li>
+        </ol>
+    </div>
+    </body>
+</html>
